@@ -1,0 +1,128 @@
+body {
+    margin: 0; /* Remove a margem padrão do corpo da página */
+    padding: 0; /* Remove o preenchimento padrão do corpo da página */
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+header {
+    background-color: #ccc; 
+    padding: 20px 60px; /* Aplica 20px de preenchimento vertical e 20px de preenchimento horizontal no cabeçalho */
+    flex-direction: row; /* Muda a direção do layout para empilhar os itens verticalmente */
+}
+
+
+.topo{
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px; /* Define o tamanho da fonte */
+    color: #413e3e; 
+}
+
+nav {
+    justify-self: right;
+    margin-top: 6px;
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado links */
+    color: #413e3e; /* Define a cor */
+    font-size: 15px; /* Define o tamanho da fonte */
+    padding: 20px 20px;
+    
+}
+
+.intro{
+    font-size: 30px;
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-top: 20px;
+    color: #413e3e; 
+}
+
+.texto{
+    width: 40%;
+    margin-top: 5px;
+    color: #413e3e; 
+}
+
+.imagem{
+    background-color: #9F9F9F;
+    height: 150px;
+    width: 40%;
+    top: 70px;
+    color: #413e3e; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px; 
+    margin-left: auto; 
+}
+
+#pontos{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    
+}
+
+.ponto{
+    background-color: #ccc;
+    flex: 1;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    left: 68%;
+    margin-inline: 4px;
+    margin-top: 18px;
+}
+
+#blocos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloco{
+    background-color: #ccc;
+    height: 120px;
+    width: 280px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 4px;
+    margin-top: 20px;
+    color: #413e3e; 
+    margin-left: 8%;
+}
+
+.feed{
+    display: flex;
+    flex-direction: row;
+    background-color: #ccc;
+    height: 70px;
+    padding-left: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    color: #413e3e; 
+    margin-left: 8%;
+}
+
+.final{
+    background-color: #ccc; 
+    padding: 20px 70px; /* Aplica 20px de preenchimento vertical e 20px de preenchimento horizontal no cabeçalho */
+    flex-direction: row; 
+    display: flex;
+}
+
+.copy{
+    color: #413e3e; 
+    margin-top: 6px;
+    margin-left: auto;
+}
